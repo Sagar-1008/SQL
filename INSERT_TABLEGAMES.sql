@@ -1,0 +1,10 @@
+CREATE DATABASE xworkz;
+USE xworkz;
+CREATE TABLE games(id int, name varchar(20));
+SELECT * FROM games;
+INSERT INTO games values(1, 'cricket');
+SELECT * FROM games;
+INSERT INTO games values(3, 'Running');
+INSERT INTO games values(4, 'Long Jump');
+INSERT INTO games values(5, 'Javalin');
+SELECT * FROM games;
